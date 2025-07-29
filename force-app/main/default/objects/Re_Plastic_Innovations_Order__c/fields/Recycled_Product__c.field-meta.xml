@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recycled_Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Ordered product</description>
+    <inlineHelpText>Ordered product</inlineHelpText>
+    <label>Recycled Product</label>
+    <referenceTo>Re_Plastic_Innovations_Recycled_Product__c</referenceTo>
+    <relationshipLabel>Re Plastic Innovations Orders</relationshipLabel>
+    <relationshipName>Re_Plastic_Innovations_Orders</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

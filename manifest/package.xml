@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Custom Objects -->
+    <types>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c</members>
+        <members>Re_Plastic_Innovations_Order__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Custom Fields -->
+    <types>
+        <!-- Plastic Waste -->
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Weight__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Type__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Collection_Date__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Status__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Recycling_Center__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Location__c</members>
+
+        <!-- Recycling Center -->
+        <members>Re_Plastic_Innovations_Recycling_Center__c.Location__c</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c.Capacity__c</members>
+
+        <!-- Recycled Product -->
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Stock_Level__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Threshold__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Price__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Stock_Low_On_Product__c</members>
+
+        <!-- Order -->
+        <members>Re_Plastic_Innovations_Order__c.Customer__c</members>
+        <members>Re_Plastic_Innovations_Order__c.Recycled_Product__c</members>
+        <members>Re_Plastic_Innovations_Order__c.Quantity__c</members>
+        <members>Re_Plastic_Innovations_Order__c.Delivery_Date__c</members>
+
+        <!-- Restock Request -->
+        <members>Re_Plastic_Innovations_Restock_Request__c.Product__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c.Requested_Quantity__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- Tabs -->
+    <types>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c</members>
+        <members>Re_Plastic_Innovations_Order__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c</members>
+        <name>CustomTab</name>
+    </types>
+
+    <!-- Lightning App -->
+    <types>
+        <members>Re_Plastic_Innovations</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <!-- Roles -->
+    <types>
+        <members>CEO</members>
+        <members>Recycling_Manager</members>
+        <members>Sales_Representative</members>
+        <members>Warehouse_Supervisor</members>
+        <name>Role</name>
+    </types>
+
+    <!-- Profiles -->
+    <types>
+        <members>Platform_1</members>
+        <members>Platform_2</members>
+        <members>Platform_3</members>
+        <name>Profile</name>
+    </types>
+
+    <!-- Sharing Rules -->
+    <types>
+        <members>*</members>
+        <name>SharingOwnerRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+
+    <!-- Validation Rules -->
+    <types>
+        <members>Re_Plastic_Innovations_Order__c.Check_Quantity_Not_Zero</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Future_Date_Collection</members>
+        <name>ValidationRule</name>
+    </types>
+
+    <!-- Flow -->
+    <types>
+        <members>Stock_Level_Is_Low</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Stock_Level_Is_Low</members>
+        <name>FlowDefinition</name>
+    </types>
+
+    <!-- Apex Classes -->
+    <types>
+        <members>InventoryManager</members>
+        <members>EmailNotificationHelper</members>
+        <members>InventoryManagerTest</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Apex Triggers -->
+    <types>
+        <members>UpdateStockAfterOrder</members>
+        <members>UpdateStockAfterRestockApproval</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <!-- Layouts (Optional but highly recommended) -->
+    <types>
+        <members>*</members>
+        <name>Layout</name>
+    </types>
+
+    <!-- Record Types (Optional if you created any) -->
+    <types>
+        <members>*</members>
+        <name>RecordType</name>
+    </types>
+
+    <!-- API Version -->
+    <version>64.0</version>
+</Package>

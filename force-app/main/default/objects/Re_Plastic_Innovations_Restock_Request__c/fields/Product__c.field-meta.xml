@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Product to restock</description>
+    <inlineHelpText>Product to restock</inlineHelpText>
+    <label>Product</label>
+    <referenceTo>Re_Plastic_Innovations_Recycled_Product__c</referenceTo>
+    <relationshipLabel>Re Plastic Innovations Restock Requests</relationshipLabel>
+    <relationshipName>Re_Plastic_Innovations_Restock_Requests</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

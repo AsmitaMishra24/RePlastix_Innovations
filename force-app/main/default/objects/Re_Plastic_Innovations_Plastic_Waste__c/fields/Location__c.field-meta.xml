@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <description>Waste collection location</description>
+    <displayLocationInDecimal>false</displayLocationInDecimal>
+    <inlineHelpText>Waste collection location</inlineHelpText>
+    <label>Location</label>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>
