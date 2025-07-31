@@ -212,10 +212,10 @@ A key report is included:
 4. Upload sample data manually or use anonymous Apex for test records.
 
 ## 📌 **Note:**
-> - All screenshots were captured from a Salesforce Developer Edition Org configured for the RePlastix Innovations project.
-> - The data shown is **test data** created specifically for demonstrating functionality.
-> - To replicate these records, you may use the field values and object names referenced in the screenshots and report.
-> - For full setup steps, refer to the [📊 Reports](#-reports) and [🚀 Setup Instructions](#-setup-instructions) sections below.
+- All screenshots were captured from a Salesforce Developer Edition Org configured for the RePlastix Innovations project.
+- The data shown is **test data** created specifically for demonstrating functionality.
+- To replicate these records, you may use the field values and object names referenced in the screenshots and report.
+- For full setup steps, refer to the [📊 Reports](#-reports) and [🚀 Setup Instructions](#-setup-instructions) sections below.
 
 ## 👩‍💻 Developer
 This project was developed by [Asmita Mishra](https://github.com/AsmitaMishra24).
