@@ -118,9 +118,9 @@ This folder contains all custom Salesforce metadata built for the **RePlastix In
 
 | Name                            | Role                  |
 |---------------------------------|-----------------------|
-| John (Sandbox 1 – Production Engg) | Recycling Manager     |
-| Quality Inspector               | Sales Representative  |
-| Plant Manager Albert           | Warehouse Supervisor  |
+| John Sandbox 1 – Production Engg | Recycling Manager     |
+| Quality Inspector - Mike               | Sales Representative  |
+| Plant Manager - Albert           | Warehouse Supervisor  |
 
 ---
 
